@@ -1,4 +1,4 @@
-# A Awesome Unity Game 
+# a Awesome Unity Game 
 This is a demo game for practicing unity 3d.
 If our game is undone, do not mad at us. ( We are too busy and this is our side project)
 But We try to make it interesting as possible.
@@ -10,7 +10,7 @@ But We try to make it interesting as possible.
 - Level up by killing enemy
 
 # Purpose
-- Practice Unity3D programing
+- Practicing Unity3D programing
 - Piling up for project collections
 
 
