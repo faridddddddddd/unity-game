@@ -15,6 +15,8 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
 		this.oringalParent = this.transform.parent;
 		this.transform.SetParent (this.transform.parent.parent);
 
+		GetComponent<CanvasGroup> ().blocksRaycasts = false;
+
 	}
 	public void OnDrag(PointerEventData eventData){
 //		Debug.Log ("OnDrag");
@@ -24,5 +26,6 @@ public class draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
 	public void OnEndDrag(PointerEventData eventData){
 		Debug.Log ("OnEndDrag");
 		this.transform.SetParent (oringalParent);
+		GetComponent<CanvasGroup> ().blocksRaycasts = true;
 	}
 }
